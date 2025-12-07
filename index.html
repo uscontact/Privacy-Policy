@@ -3,152 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Kaushal</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Privacy Policy - [Kaushal]</title>
     <style>
+        /* CSS: ডিজাইনের জন্য */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --bg-color: #f4f6f7;
+            --text-color: #333;
+        }
+
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            background-color: #f4f7f6;
-            color: #333;
+            color: var(--text-color);
+            background-color: var(--bg-color);
             margin: 0;
             padding: 0;
         }
+
         .container {
             max-width: 800px;
-            width: 95%;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            box-sizing: border-box; 
-        }
-        h1 {
-            color: #121212;
-            text-align: center;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-            font-size: 24px; 
-        }
-        h2 {
-            color: #1a1a1a;
-            margin-top: 30px;
-            border-bottom: 1px solid #f0f0f0;
-            padding-bottom: 5px;
-            font-size: 20px;
-        }
-        p, li {
-            font-size: 15px; 
-            color: #454545;
-            word-wrap: break-word; 
-        }
-        ul {
-            padding-left: 20px;
-            margin-top: 10px;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-            word-break: break-all; 
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .contact-info {
-            background-color: #f9f9f9;
-            padding: 15px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 40px;
             border-radius: 8px;
-            margin-top: 20px;
-            border: 1px solid #eee;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .date {
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            font-size: 1.4em;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--primary-color);
+        }
+
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #856404;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        /* মোবাইল রেসপন্সিভ */
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+            h1 { font-size: 1.8em; }
+            h2 { font-size: 1.2em; }
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Privacy Policy for Kaushal</h1>
-        <p><strong>Last updated:</strong> November 07, 2025</p>
-
-        <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
-        <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
-
-        <h2>Interpretation and Definitions</h2>
-        <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-
-        <h2>Collecting and Using Your Personal Data</h2>
-        <h3>Types of Data Collected</h3>
-        <h4>Personal Data</h4>
-        <p>While using Our Service (Kaushal), We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
-        <ul>
-            <li>Email address</li>
-            <li>First name and last name (Name)</li>
-            <li>Phone number (Mobile Number)</li>
-            <li>Usage Data</li>
-        </ul>
-        <p>This information is collected through Firebase Authentication when you register for an account.</p>
-
-        <h4>Usage Data</h4>
-        <p>Usage Data is collected automatically when using the Service. This may include information such as Your device's IP address, browser type, pages of our Service that You visit, the time and date of Your visit, etc.</p>
+        <h1>Privacy Policy</h1>
         
-        <h4>Information Collected while Using the Application</h4>
-        <p>While using Our Application, in order to provide features of Our Application, We may collect, with Your prior permission:</p>
-        <ul>
-            <li><strong>Information regarding your storage:</strong> We request storage permissions (READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE) solely for the purpose of downloading audio and video files to your device for offline playback. These files are stored in the app's private directory (Android/data/com.mykaushal.newpronew/files) and are not accessed for any other purpose.</li>
-        </ul>
+        <div class="date" id="effectiveDate">Effective Date: Loading...</div>
 
-        <h2>Use of Your Personal Data</h2>
-        <p>The Company may use Personal Data for the following purposes:</p>
-        <ul>
-            <li><strong>To provide and maintain our Service:</strong> including to monitor the usage of our Service.</li>
-            <li><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</li>
-            <li><strong>To manage subscription payments:</strong> We collect payment information (such as UTR IDs) when you purchase a subscription plan, solely for the purpose of verifying and activating your plan.</li>
-            <li><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication.</li>
-        </ul>
+        <section>
+            <h2>Introduction</h2>
+            <p>Welcome to <span class="highlight">[Kaushal]</span>. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our App and tell you about your privacy rights and how the law protects you.</p>
+        </section>
 
-        <!-- === নতুন সেকশন শুরু === -->
-        <h2>Content of Our Service</h2>
-        <p>The "Kaushal" app provides users with a collection of audio and video content for entertainment, motivation, and educational purposes. Our content includes, but is not limited to:</p>
-        <ul>
-            <li>Motivational Stories (অনুপ্রেরণামূলক গল্প)</li>
-            <li>Educational Content (শিক্ষামূলক বিষয়বস্তু)</li>
-            <li>Audio Stories (অডিও গল্প)</li>
-            <li>Video Stories (ভিডিও গল্প)</li>
-            <li>General entertainment and informative content.</li>
-        </ul>
-        <p>All content is provided for personal, non-commercial use only. The content is either owned by "Kaushal" or licensed for distribution.</p>
-        <!-- === নতুন সেকশন শেষ === -->
+        <section>
+            <h2>1. Information We Collect</h2>
+            <p>Based on the features of our app, we collect the following types of information:</p>
+            <ul>
+                <li><strong>Personal Information:</strong> When you register, we collect your Name, Email Address, and Phone Number. This is used to create your account, manage your profile, and identify you uniquely.</li>
+                <li><strong>Device Information:</strong> We collect Device IDs and other unique identifiers to ensure app security, prevent fraud, and manage your subscription on specific devices.</li>
+                <li><strong>Payment Information:</strong> We do not store credit card or banking details directly. However, for manual subscription verification, we may collect transaction details such as UPI ID, UTR Number, and Payment Screenshots that you voluntarily upload to verify your purchase.</li>
+                <li><strong>App Activity:</strong> We monitor which stories (Audio/Video) you listen to or download to provide features like "Favorites" and "History".</li>
+            </ul>
+        </section>
 
-        <h2>Storage and Deletion of Your Data</h2>
-        <p>Your personal data (Name, Email, Mobile, Subscription Status) is stored securely in Google's Firebase Realtime Database. We only retain your data for as long as you have an account with us.</p>
-        <p>If you wish to delete your account and all associated data, please contact us at <a href="mailto:uscontact361@gmail.com">uscontact361@gmail.com</a>. We will process your request and delete your personal information permanently.</p>
+        <section>
+            <h2>2. How We Use Your Information</h2>
+            <p>We use your data for the following purposes:</p>
+            <ul>
+                <li><strong>Account Management:</strong> To create and manage your user account.</li>
+                <li><strong>Service Delivery:</strong> To provide audio and video streaming and offline download capabilities.</li>
+                <li><strong>Subscription Management:</strong> To verify your payments and activate your premium plans (Comic Wallet).</li>
+                <li><strong>Communication:</strong> To send you updates regarding your subscription or app changes.</li>
+                <li><strong>Security:</strong> To detect and prevent fraudulent activities.</li>
+            </ul>
+        </section>
 
-        <h2>Third-Party Services</h2>
-        <p>Our app uses Google Firebase for authentication, database, and hosting. These services are governed by Google's own Privacy Policy.</p>
-        <ul>
-            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy</a></li>
-        </ul>
+        <section>
+            <h2>3. Third-Party Services</h2>
+            <p>We use third-party services that may collect information used to identify you. The services we use include:</p>
+            <ul>
+                <li>Google Play Services</li>
+                <li>Firebase Authentication (for secure login)</li>
+                <li>Firebase Realtime Database (for storing user data)</li>
+            </ul>
+        </section>
 
-        <h2>Security of Your Personal Data</h2>
-        <p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data (such as using Firebase), We cannot guarantee its absolute security.</p>
+        <section>
+            <h2>4. Data Retention and Deletion</h2>
+            <p>We retain your personal data only for as long as necessary to provide you with our services.</p>
+            <p><strong>Account Deletion:</strong> You have the right to request the deletion of your account and associated data. You can do this by navigating to the "Profile" section in the app (if available) or by contacting us at <span class="highlight">[uscontact361@gmail.com]</span>.</p>
+            <p>Upon request, we will delete your Name, Email, Phone Number, and Watch History from our active databases within a reasonable timeframe (usually 90 days).</p>
+        </section>
 
-        <h2>Children's Privacy</h2>
-        <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us.</p>
+        <section>
+            <h2>5. Children’s Privacy</h2>
+            <p>Our services are not intended for children under the age of 13. We do not knowingly collect personal identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers.</p>
+        </section>
 
-        <h2>Changes to this Privacy Policy</h2>
-        <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
-        <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+        <section>
+            <h2>6. Security</h2>
+            <p>We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. We use Firebase security rules and encryption to protect your data in transit and at rest. But remember that no method of transmission over the internet is 100% secure and reliable.</p>
+        </section>
 
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, You can contact us:</p>
-        <div class="contact-info">
-            <p><strong>By email:</strong> <a href="mailto:uscontact361@gmail.com"><strong>uscontact361@gmail.com</strong></a></p>
-        </div>
+        <section>
+            <h2>7. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+        </section>
+
+        <section>
+            <h2>8. Contact Us</h2>
+            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
+            <p><strong>Email:</strong> <span class="highlight">[uscontact361@gmail.com]</span></p>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="year"></span> <span class="highlight">[Kaushal]</span>. All rights reserved.</p>
+        </footer>
     </div>
+
+    <script>
+        // JavaScript: অটোমেটিক তারিখ এবং বছর সেট করার জন্য
+        
+        // ১. আজকের তারিখ সেট করা (Effective Date)
+        const dateElement = document.getElementById('effectiveDate');
+        const today = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.innerText = "Effective Date: " + today.toLocaleDateString('en-US', options);
+
+        // ২. ফুটার-এ বর্তমান বছর সেট করা
+        document.getElementById('year').innerText = new Date().getFullYear();
+    </script>
+
 </body>
 </html>
-
-
-
